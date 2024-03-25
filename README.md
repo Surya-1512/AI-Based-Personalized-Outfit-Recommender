@@ -134,11 +134,11 @@ It requires GPU to run the backend locally... only proceed if you have GPU and C
 ```
 
 Download backend_files from here:
-***Paste the below two models in '\content\TryYours-Virtual-Try-On\HR-VITON-main' ***
-1. https://drive.google.com/u/0/uc?id=1T5_YDUhYSSKPC_nZMk2NeC-XXUFoYeNy&export=download
-2. https://drive.google.com/u/0/uc?id=1XJTCdRBOPVgVTmqzhVGFAgMm2NLkw5uQ&export=download
-*** Paste the below model in '\content\TryYours-Virtual-Try-On\Graphonomy-master' ***
-1. https://drive.google.com/u/0/uc?id=1eUe18HoH05p0yFUd_sN6GXdTj82aW0m9&export=download
+***Paste the below two models in '\content\TryYours-Virtual-Try-On\HR-VITON-main' ***   
+1. https://drive.google.com/u/0/uc?id=1T5_YDUhYSSKPC_nZMk2NeC-XXUFoYeNy&export=download   
+2. https://drive.google.com/u/0/uc?id=1XJTCdRBOPVgVTmqzhVGFAgMm2NLkw5uQ&export=download   
+*** Paste the below model in '\content\TryYours-Virtual-Try-On\Graphonomy-master' ***   
+1. https://drive.google.com/u/0/uc?id=1eUe18HoH05p0yFUd_sN6GXdTj82aW0m9&export=download  
 
    
 Open new terminal and run
