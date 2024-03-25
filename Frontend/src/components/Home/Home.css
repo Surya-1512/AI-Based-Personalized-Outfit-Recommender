@@ -1,0 +1,20 @@
+.collections {
+    margin-top: 20px;
+  }
+  
+  .product-list {
+    text-align: center;
+  }
+  
+  .product-list h5 {
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  

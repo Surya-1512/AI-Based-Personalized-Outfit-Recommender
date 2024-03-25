@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Updated font */
+  background-color: #ffffff; /* White background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Weather component styles */
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3); /* Gradient background */
+  color: #333333; /* Dark text color */
+}
+
+.weather-details {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.weather-details h2 {
+  font-size: 36px; /* Larger heading size */
+  margin-bottom: 15px;
+  font-weight: 700; /* Bolder font weight */
+  color: #1e272e; /* Darker heading color */
+}
+
+.weather-info {
+  font-size: 22px; /* Larger text size */
+  margin-bottom: 15px;
+  font-weight: 600; /* Bolder font weight */
+  color: #1e272e; /* Darker text color */
+}
+
+.outfit-suggestion-box {
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3); /* Gradient background */
+  color: #333333; /* Dark text color */
+}
+
+.outfit-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 700; /* Bolder font weight */
+  color: #1e272e; /* Darker heading color */
+}
+
+.outfit-suggestion {
+  font-size: 18px; /* Smaller text size */
+  line-height: 1.6;
+  font-weight: 600; /* Bolder font weight */
+  color: #1e272e; /* Darker text color */
+}
+
+.loading,
+.error {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #e74c3c; /* Red error color */
+  margin-top: 20px;
+}
+
+.loading {
+  color: #333333; /* Dark text color */
+}
+
+/* Differentiate between weather info and outfit suggestion */
+.weather-details,
+.outfit-suggestion-box {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.weather-details {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.outfit-suggestion-box {
+  padding-top: 20px;
+}
+
+/* Additional styling for enhanced readability and aesthetics */
+.weather-info p {
+  margin: 0;
+}
+
+.outfit-suggestion p {
+  margin-bottom: 10px;
+}
+
+.weather-details,
+.outfit-suggestion-box {
+  padding: 20px;
+}
+
+.weather-details p,
+.outfit-suggestion p {
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #3498db; /* Blue button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}

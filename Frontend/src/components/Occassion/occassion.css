@@ -1,0 +1,24 @@
+/* occasion.css */
+
+.occasion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center align vertically */
+    height: 110vh;/*Ensure full viewport height */
+}
+  
+  .occasion-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .deep-chat-container {
+    width: 300px; /* Adjust the width as needed */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: 500px; /* Adjust the height as needed */
+    max-height: 100%; /* Adjust the maximum height as needed */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for visual appeal */
+  }
+  

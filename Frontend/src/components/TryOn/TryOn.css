@@ -1,0 +1,81 @@
+/* Add your custom styles here */
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .upload-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .upload-box {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  .upload-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .notification {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    z-index: 999;
+  }
+  
+  .notification.success {
+    background-color: #75d976;
+    color: white;
+  }
+  
+  .notification.failure {
+    background-color: #f05454;
+    color: white;
+  }
+  
+  .notification.waiting {
+    background-color: #ffd700; /* Yellow color */
+    color: black; /* Text color */
+  }
+  
+  .process-box {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .process-buttons {
+    margin-bottom: 10px;
+  }
+  
+  .final-image-container {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .final-image {
+    width: 100%;
+    height: auto;
+  }
+  

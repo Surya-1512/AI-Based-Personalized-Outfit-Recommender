@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    border-bottom: 1px solid #dee2e6; /* Gray border bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #343a40; /* Dark text color */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .navbar-brand:hover,
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue text color on hover */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #28a745; /* Green color for active link */
+    border-bottom: 2px solid #28a745; /* Green border bottom for active link */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #343a40; /* Dark color for toggler icon */
+  }
+  
+  .navbar-toggler {
+    border-color: #343a40; /* Dark color for toggler border */
+  }
+  
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+    background-color: #343a40; /* Dark color on hover/focus */
+  }
+  
